@@ -13,6 +13,17 @@
 * [Automotive_SPICE_PAM_31_EN](./doc/Automotive/Automotive_SPICE_PAM_31_EN.pdf)
 * [AutomotiveSPICE_PAM_31_Chinese](./doc/Automotive/AutomotiveSPICE_PAM_31_Chinese.pdf)
 
+### c/c++ unittest framework and tools
+
+* [Google Test](https://github.com/google/googletest)
+
+### Code Coverage tools
+
+* [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
+* [gcovr](https://github.com/gcovr/gcovr)
+* [lcov](https://github.com/linux-test-project/lcov)
+* [grcov](https://github.com/mozilla/grcov)
+
 ## Static Code Analysiz
 
 ### c/c++ static code analysiz specfication documents
@@ -40,3 +51,11 @@
 #### Autosar C++
 
 * [Autosar cpp guidelines](https://github.com/sbmueller/autosar_cpp_guidelines)
+
+### c/c++ Warning as Error
+
+* [GCC Warnings Options](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html)
+
+### c/c++ Cyclomatic Complexity Analyzer
+
+* [lizard](https://github.com/terryyin/lizard)
