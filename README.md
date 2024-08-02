@@ -20,6 +20,7 @@
   * but gmock can not mock non-virtual method without source code modify
   * and gmock can not mock free functions without source code modify
     * one can use [C-Mock](https://github.com/hjagodzinski/C-Mock) to mock free functions  
+    * also considers [mockc](https://github.com/MickaelBlet/mockc)
 
 ### Code Coverage tools
 
