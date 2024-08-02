@@ -29,9 +29,9 @@
 * [lcov](https://github.com/linux-test-project/lcov)
 * [grcov](https://github.com/mozilla/grcov)
 
-## Static Code Analysiz
+## Static Code Analysis
 
-### c/c++ static code analysiz specfication documents
+### c/c++ static code analysis specfication documents
 
 #### MISRA C
 
