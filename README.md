@@ -39,6 +39,14 @@
 * IEC61508
 * EN50128
 
+### Static Analysis Security Testing
+
+* SEI CERT
+* CWE
+* OWASP
+* DISA-ASD-STIG
+* UL 2900
+
 ### c/c++ static code analysis specfication documents
 
 #### MISRA C
