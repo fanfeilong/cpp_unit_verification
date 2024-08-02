@@ -31,6 +31,14 @@
 
 ## Static Code Analysis
 
+### Functional Safety Standards
+
+* IS26262
+* DO-178C
+* IEC62304
+* IEC61508
+* EN50128
+
 ### c/c++ static code analysis specfication documents
 
 #### MISRA C
