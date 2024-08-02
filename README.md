@@ -49,11 +49,17 @@ These standards are designed to ensure that safety-critical systems are develope
 
 ### Static Analysis Security Testing
 
-* SEI CERT
-* CWE
-* OWASP
-* DISA-ASD-STIG
-* UL 2900
+Static Analysis Security Testing (SAST) is a type of software testing that analyzes the source code of a program to detect potential security vulnerabilities. Unlike dynamic testing, which involves running the application to find bugs, SAST tools scan the code itself to identify weaknesses. This can be an efficient way to find issues before the software is deployed, reducing the risk of security breaches.
+
+* SEI CERT (Software Engineering Institute's Center for Secure Software Development): The Software Engineering Institute's Center for Secure Software Development (SEI CERT) is a research and development organization focused on enhancing the security of software systems. They offer a range of resources and services, including training, tools, and methodologies to help organizations improve the security of their software.
+
+* CWE (Common Weakness Enumeration): The Common Weakness Enumeration (CWE) is a list of common software weaknesses. It serves as a standard for identifying, describing, and classifying software weaknesses. This helps developers understand the types of vulnerabilities they might encounter and provides a common language for discussing and mitigating these issues.
+
+* OWASP (Open Web Application Security Project): The Open Web Application Security Project (OWASP) is a nonprofit organization that focuses on improving the security of software. They provide a wide range of free, open-source resources, including the OWASP Top 10 list of web application security risks, which helps developers prioritize their security efforts.
+
+* DISA-ASD-STIG (Department of Defense Information Assurance Certification and Accreditation Process - Assessment Security Technical Implementation Guide): The Department of Defense Information Assurance Certification and Accreditation Process (DIACAP) - Assessment Security Technical Implementation Guide (STIG) is a set of guidelines developed by the Department of Defense (DoD) to help organizations secure their systems and applications. STIGs provide detailed instructions for configuring and securing systems to meet the DoD's security requirements.
+
+* UL 2900 (Underwriters Laboratories Security and Privacy Framework for Internet of Things): UL 2900 is a framework developed by Underwriters Laboratories (UL) for securing the Internet of Things (IoT) devices. It provides guidelines and standards for assessing and mitigating security risks in IoT devices, focusing on areas such as device authentication, encryption, and secure software development practices.
 
 ### Security Coding Compliance Standards
 
