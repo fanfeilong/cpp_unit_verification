@@ -47,7 +47,7 @@
 * DISA-ASD-STIG
 * UL 2900
 
-### c/c++ static code analysis specfication documents
+### Security Coding Compliance Standards
 
 #### MISRA C
 
