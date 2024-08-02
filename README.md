@@ -33,11 +33,19 @@
 
 ### Functional Safety Standards
 
-* IS26262
-* DO-178C
-* IEC62304
-* IEC61508
-* EN50128
+Functional Safety Standards are a set of international standards designed to ensure the safety of systems that have critical functions. Here is a brief introduction to the standards you mentioned:
+
+* ISO 26262 is an automotive functional safety standard that covers the entire lifecycle of automotive systems, from concept to production. It provides guidelines for managing safety risks and ensuring that automotive systems are safe and reliable. This standard is particularly important in the development of advanced driver assistance systems (ADAS) and autonomous driving technologies.
+
+* DO-178C is an aerospace functional safety standard that applies to the design, development, and certification of software for airborne systems. It covers the entire lifecycle of software development, from requirements analysis to maintenance. This standard ensures that the software is reliable and safe for use in aircraft, which is critical given the high stakes in aviation safety.
+
+* IEC 62304 is a medical device functional safety standard. It applies to the entire lifecycle of medical device software, including development, validation, and maintenance. This standard aims to ensure that medical devices are safe and reliable, reducing the risk of harm to patients.
+
+* IEC 61508 is an industrial automation and control systems functional safety standard. It applies to the entire lifecycle of safety-related systems in industrial automation and control. This standard ensures that systems are designed, developed, and maintained in a way that minimizes the risk of failure, which is crucial in industries where safety is paramount.
+
+* EN 50128 is a railway traffic systems functional safety standard. It covers the entire lifecycle of railway systems, from design to maintenance. This standard ensures that railway systems are safe and reliable, reducing the risk of accidents and ensuring the smooth operation of the railway network.
+
+These standards are designed to ensure that safety-critical systems are developed and maintained in a way that minimizes the risk of failure, thereby enhancing overall safety. They cover various aspects such as risk analysis, design, validation, verification, and fault management.
 
 ### Static Analysis Security Testing
 
