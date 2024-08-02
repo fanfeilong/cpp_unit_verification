@@ -16,6 +16,10 @@
 ### c/c++ unittest framework and tools
 
 * [Google Test](https://github.com/google/googletest)
+* [Google Mock](https://google.github.io/googletest/gmock_cheat_sheet.html)
+  * but gmock can not mock non-virtual method without source code modify
+  * and gmock can not mock free functions without source code modify
+    * one can use [C-Mock](https://github.com/hjagodzinski/C-Mock) to mock free functions  
 
 ### Code Coverage tools
 
