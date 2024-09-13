@@ -94,3 +94,6 @@ Static Analysis Security Testing (SAST) is a type of software testing that analy
 ### c/c++ Cyclomatic Complexity Analyzer
 
 * [lizard](https://github.com/terryyin/lizard)
+
+## Safe C++
+* [safecpp](https://safecpp.org/draft.html) A superset of C++ with a safe subset. 
