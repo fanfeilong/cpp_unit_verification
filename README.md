@@ -48,15 +48,15 @@
 
 Functional Safety Standards are a set of international standards designed to ensure the safety of systems that have critical functions. Here is a brief introduction to the standards you mentioned:
 
-* ISO 26262
+* ISO 26262 (https://www.iso.org/standard/68383.html)
   - Automotive functional safety standard covering the entire lifecycle of automotive systems
-* DO-178C
+* DO-178C (https://www.rtca.org/products/do-178c-software-considerations-in-airborne-systems-and-equipment-certification/)
   - Aerospace software safety standard for airborne systems certification
-* IEC 62304
+* IEC 62304 (https://www.iso.org/standard/38421.html)
   - Medical device software safety standard for healthcare applications
-* IEC 61508
+* IEC 61508 (https://www.iec.ch/homepage)
   - Industrial automation and control systems safety standard
-* EN 50128
+* EN 50128 (https://standards.globalspec.com/std/14375471/EN%2050128)
   - Railway traffic systems safety standard for rail operations
 
 These standards are designed to ensure that safety-critical systems are developed and maintained in a way that minimizes the risk of failure, thereby enhancing overall safety. They cover various aspects such as risk analysis, design, validation, verification, and fault management.
@@ -65,15 +65,15 @@ These standards are designed to ensure that safety-critical systems are develope
 
 Static Analysis Security Testing (SAST) is a type of software testing that analyzes the source code of a program to detect potential security vulnerabilities. Unlike dynamic testing, which involves running the application to find bugs, SAST tools scan the code itself to identify weaknesses. This can be an efficient way to find issues before the software is deployed, reducing the risk of security breaches.
 
-* SEI CERT
+* SEI CERT (https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards)
   - Research organization providing security training, tools, and methodologies
-* CWE
+* CWE (https://cwe.mitre.org/)
   - Standardized list of common software weaknesses and vulnerabilities
-* OWASP
+* OWASP (https://owasp.org/)
   - Nonprofit organization providing security resources and best practices
-* DISA-ASD-STIG
+* DISA-ASD-STIG (https://public.cyber.mil/stigs/)
   - DoD guidelines for securing systems and applications
-* UL 2900
+* UL 2900 (https://www.ul.com/services/cybersecurity-assurance-program)
   - Framework for securing IoT devices and applications
 
 ### Security Coding Compliance Standards
