@@ -35,6 +35,8 @@
 
 * [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
   - GCC's native code coverage tool for analyzing program execution
+    - Source code available in GCC repository: https://gcc.gnu.org/git/gcc.git under gcc/gcov/
+      - [gcc-15/gcov.cc](https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=gcc/gcov.cc;hb=refs/heads/releases/gcc-15)
 * [gcovr](https://github.com/gcovr/gcovr)
   - Python-based tool for generating code coverage reports from gcov data
 * [lcov](https://github.com/linux-test-project/lcov)
