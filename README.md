@@ -1,33 +1,46 @@
 # cpp_unit_verification
 
 * UnitTest
-* Static Code Analysiz
+  - Comprehensive testing framework and tools for C/C++ code verification
+* Static Code Analysis
+  - Tools and standards for analyzing code quality and security
 
 ## UnitTest
 
-### c/c++ test specfication documents
+### c/c++ test specification documents
 
 #### Automotive SPICE
 
 * [Basic Introduce to Automotive (zh_cn)](./doc/FAQ/automotive.md)
+  - Chinese introduction to Automotive SPICE concepts and practices
 * [Automotive_SPICE_PAM_31_EN](./doc/Automotive/Automotive_SPICE_PAM_31_EN.pdf)
+  - Official Automotive SPICE Process Assessment Model 3.1 in English
 * [AutomotiveSPICE_PAM_31_Chinese](./doc/Automotive/AutomotiveSPICE_PAM_31_Chinese.pdf)
+  - Chinese translation of Automotive SPICE PAM 3.1
 
 ### c/c++ unittest framework and tools
 
 * [Google Test](https://github.com/google/googletest)
+  - Google's C++ test framework with rich assertion macros and test organization features
 * [Google Mock](https://google.github.io/googletest/gmock_cheat_sheet.html)
+  - Google's C++ mocking framework for creating mock objects
   * but gmock can not mock non-virtual method without source code modify
   * and gmock can not mock free functions without source code modify
-    * one can use [C-Mock](https://github.com/hjagodzinski/C-Mock) to mock free functions  
+    * one can use [C-Mock](https://github.com/hjagodzinski/C-Mock) to mock free functions
+      - A C mocking framework for free functions
     * also considers [mockc](https://github.com/MickaelBlet/mockc)
+      - Another C mocking framework alternative
 
 ### Code Coverage tools
 
 * [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
+  - GCC's native code coverage tool for analyzing program execution
 * [gcovr](https://github.com/gcovr/gcovr)
+  - Python-based tool for generating code coverage reports from gcov data
 * [lcov](https://github.com/linux-test-project/lcov)
+  - Graphical front-end for GCC's coverage testing tool
 * [grcov](https://github.com/mozilla/grcov)
+  - Mozilla's code coverage tool supporting multiple languages and formats
 
 ## Static Code Analysis
 
@@ -35,15 +48,16 @@
 
 Functional Safety Standards are a set of international standards designed to ensure the safety of systems that have critical functions. Here is a brief introduction to the standards you mentioned:
 
-* ISO 26262 is an automotive functional safety standard that covers the entire lifecycle of automotive systems, from concept to production. It provides guidelines for managing safety risks and ensuring that automotive systems are safe and reliable. This standard is particularly important in the development of advanced driver assistance systems (ADAS) and autonomous driving technologies.
-
-* DO-178C is an aerospace functional safety standard that applies to the design, development, and certification of software for airborne systems. It covers the entire lifecycle of software development, from requirements analysis to maintenance. This standard ensures that the software is reliable and safe for use in aircraft, which is critical given the high stakes in aviation safety.
-
-* IEC 62304 is a medical device functional safety standard. It applies to the entire lifecycle of medical device software, including development, validation, and maintenance. This standard aims to ensure that medical devices are safe and reliable, reducing the risk of harm to patients.
-
-* IEC 61508 is an industrial automation and control systems functional safety standard. It applies to the entire lifecycle of safety-related systems in industrial automation and control. This standard ensures that systems are designed, developed, and maintained in a way that minimizes the risk of failure, which is crucial in industries where safety is paramount.
-
-* EN 50128 is a railway traffic systems functional safety standard. It covers the entire lifecycle of railway systems, from design to maintenance. This standard ensures that railway systems are safe and reliable, reducing the risk of accidents and ensuring the smooth operation of the railway network.
+* ISO 26262
+  - Automotive functional safety standard covering the entire lifecycle of automotive systems
+* DO-178C
+  - Aerospace software safety standard for airborne systems certification
+* IEC 62304
+  - Medical device software safety standard for healthcare applications
+* IEC 61508
+  - Industrial automation and control systems safety standard
+* EN 50128
+  - Railway traffic systems safety standard for rail operations
 
 These standards are designed to ensure that safety-critical systems are developed and maintained in a way that minimizes the risk of failure, thereby enhancing overall safety. They cover various aspects such as risk analysis, design, validation, verification, and fault management.
 
@@ -51,49 +65,62 @@ These standards are designed to ensure that safety-critical systems are develope
 
 Static Analysis Security Testing (SAST) is a type of software testing that analyzes the source code of a program to detect potential security vulnerabilities. Unlike dynamic testing, which involves running the application to find bugs, SAST tools scan the code itself to identify weaknesses. This can be an efficient way to find issues before the software is deployed, reducing the risk of security breaches.
 
-* SEI CERT (Software Engineering Institute's Center for Secure Software Development): The Software Engineering Institute's Center for Secure Software Development (SEI CERT) is a research and development organization focused on enhancing the security of software systems. They offer a range of resources and services, including training, tools, and methodologies to help organizations improve the security of their software.
-
-* CWE (Common Weakness Enumeration): The Common Weakness Enumeration (CWE) is a list of common software weaknesses. It serves as a standard for identifying, describing, and classifying software weaknesses. This helps developers understand the types of vulnerabilities they might encounter and provides a common language for discussing and mitigating these issues.
-
-* OWASP (Open Web Application Security Project): The Open Web Application Security Project (OWASP) is a nonprofit organization that focuses on improving the security of software. They provide a wide range of free, open-source resources, including the OWASP Top 10 list of web application security risks, which helps developers prioritize their security efforts.
-
-* DISA-ASD-STIG (Department of Defense Information Assurance Certification and Accreditation Process - Assessment Security Technical Implementation Guide): The Department of Defense Information Assurance Certification and Accreditation Process (DIACAP) - Assessment Security Technical Implementation Guide (STIG) is a set of guidelines developed by the Department of Defense (DoD) to help organizations secure their systems and applications. STIGs provide detailed instructions for configuring and securing systems to meet the DoD's security requirements.
-
-* UL 2900 (Underwriters Laboratories Security and Privacy Framework for Internet of Things): UL 2900 is a framework developed by Underwriters Laboratories (UL) for securing the Internet of Things (IoT) devices. It provides guidelines and standards for assessing and mitigating security risks in IoT devices, focusing on areas such as device authentication, encryption, and secure software development practices.
+* SEI CERT
+  - Research organization providing security training, tools, and methodologies
+* CWE
+  - Standardized list of common software weaknesses and vulnerabilities
+* OWASP
+  - Nonprofit organization providing security resources and best practices
+* DISA-ASD-STIG
+  - DoD guidelines for securing systems and applications
+* UL 2900
+  - Framework for securing IoT devices and applications
 
 ### Security Coding Compliance Standards
 
 #### MISRA C
 
 * [MISRA/MISRA C 1998 in Russian.pdf](./doc//MISRA/MISRA%20C%201998%20in%20Russian.pdf)
+  - Russian translation of the original MISRA C guidelines
 * [MISRA/MISRA C 2004.pdf](./doc/MISRA/MISRA%20C%202004.pdf)
+  - Updated MISRA C guidelines from 2004
 * [MISRA/MISRA C 2012 Guidelines for the use of.pdf](./doc/MISRA/MISRA%20C%202012%20Guidelines%20for%20the%20use%20of.pdf)
+  - Latest MISRA C guidelines from 2012
 
 #### MISRA C++
 
 * [MISRA/MISRA C++ 2008.pdf](./doc/MISRA/MISRA%20C++%202008.pdf)
+  - Original MISRA C++ guidelines
 * [MISRA/MISRA-C2012 Standards Model Summary for C  C++.pdf](./doc/MISRA/MISRA-C2012%20Standards%20Model%20Summary%20for%20C%20%20C++.pdf)
+  - Summary of MISRA standards for both C and C++
 
 #### MISRA Compliance
 
 * [MISRA/MISRA Compliance 2016.pdf](./doc/MISRA/MISRA%20Compliance%202016.pdf)
+  - Guidelines for achieving MISRA compliance
 * [MISRA/MISRA Compliance 2020.pdf](./doc/MISRA/MISRA%20Compliance%202020.pdf)
+  - Updated compliance guidelines for 2020
 
 #### MISRA Checker
 
 * [GCC-MISRAC-Checker](https://github.com/CCU-HPCLAB/GCC-MISRAC-Checker)
+  - GCC-based tool for checking MISRA C compliance
 
 #### Autosar C++
 
 * [Autosar cpp guidelines](https://github.com/sbmueller/autosar_cpp_guidelines)
+  - C++ coding guidelines for AUTOSAR automotive software
 
 ### c/c++ Warning as Error
 
 * [GCC Warnings Options](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html)
+  - Comprehensive guide to GCC warning options and error handling
 
 ### c/c++ Cyclomatic Complexity Analyzer
 
 * [lizard](https://github.com/terryyin/lizard)
+  - Tool for analyzing code complexity metrics
 
 ## Safe C++
-* [safecpp](https://safecpp.org/draft.html) A superset of C++ with a safe subset. 
+* [safecpp](https://safecpp.org/draft.html)
+  - A superset of C++ with a safe subset for secure programming
